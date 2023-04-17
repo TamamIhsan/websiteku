@@ -4,7 +4,7 @@ const title = document.title;
 // Menambahkan event listener ke window
 window.addEventListener('blur', () => {
   // Ketika pengguna berpindah tab, ganti judul halaman
-  document.title = 'Kembalilah    :( ';
+  document.title = 'Kami membutuhkanmu! ';
 });
 
 window.addEventListener('focus', () => {
